@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Automation Suite">
+<listeners>
+<listener class-name="com.qa.practice.utilities.TestNgListeners"></listener>
+<listener class-name="com.qa.practice.utilities.ExtentReportListener"></listener>
+</listeners>
+	<test name="Selenium practice blog automation tests">
+	
+		<classes>
+			<!-- <class name="com.qa.practice.TestCases.FormPageFillTest"></class>
+			<class name="com.qa.practice.TestCases.ShortWaitTest"></class> 
+			<class name="com.qa.practice.TestCases.LongWaitTest"></class>
+			<class name="com.qa.practice.TestCases.KeyboardDisabledTest"></class>-->
+			<class name="com.qa.practice.TestCases.ShortWaitTest"></class> 
+		</classes>
+	</test>
+</suite>

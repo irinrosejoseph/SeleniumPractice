@@ -20,8 +20,8 @@ public class KeyboardDisabledTest extends Base{
 	{
 		initialization();
 		hm = new HomePageOR();
-		kb = new KeyBoardDisabledOR();
-		hm.clickKeyboardDisabled();
+		//kb = new KeyBoardDisabledOR();
+		kb = hm.clickKeyboardDisabled();
 		
 		
 	}

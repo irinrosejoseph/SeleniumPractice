@@ -20,6 +20,9 @@ public class HomePageOR extends Base{
 	@FindBy(linkText = "Keyboard Disabled")
 	WebElement keyDisabledLink;
 	
+	@FindBy(linkText = "NewTab")
+	WebElement newTabLink;
+	
 	
 	public HomePageOR()
 	{
@@ -46,6 +49,11 @@ public class HomePageOR extends Base{
 	{
 		keyDisabledLink.click();
 		return new KeyBoardDisabledOR();
+	}
+	public NewTabOR clickNewTab()
+	{
+		newTabLink.click();
+		return new NewTabOR();
 	}
 
 }

@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-02T20:33:48 GST" name="Selenium Automation Suite" finished-at="2022-10-02T20:34:05 GST" duration-ms="16695">
+  <suite started-at="2022-11-03T09:08:15 GST" name="Selenium Automation Suite" finished-at="2022-11-03T09:08:24 GST" duration-ms="9054">
     <groups>
     </groups>
-    <test started-at="2022-10-02T20:33:48 GST" name="Selenium practice blog automation tests" finished-at="2022-10-02T20:34:05 GST" duration-ms="16695">
-      <class name="com.qa.practice.TestCases.ShortWaitTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.practice.TestCases.ShortWaitTest@333291e3]" started-at="2022-10-02T20:33:48 GST" name="setUp" finished-at="2022-10-02T20:33:55 GST" duration-ms="6539" status="PASS">
+    <test started-at="2022-11-03T09:08:15 GST" name="Selenium practice blog automation tests" finished-at="2022-11-03T09:08:24 GST" duration-ms="9054">
+      <class name="com.qa.practice.TestCases.NewTabTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.practice.TestCases.NewTabTest@4f18837a]" started-at="2022-11-03T09:08:15 GST" name="setUp" finished-at="2022-11-03T09:08:23 GST" duration-ms="7941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickButtonForWait()[pri:0, instance:com.qa.practice.TestCases.ShortWaitTest@333291e3]" started-at="2022-10-02T20:33:55 GST" name="clickButtonForWait" finished-at="2022-10-02T20:34:05 GST" duration-ms="9950" status="PASS">
+        <test-method signature="newTabTest()[pri:0, instance:com.qa.practice.TestCases.NewTabTest@4f18837a]" started-at="2022-11-03T09:08:23 GST" name="newTabTest" finished-at="2022-11-03T09:08:24 GST" duration-ms="1085" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickButtonForWait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.practice.TestCases.ShortWaitTest@333291e3]" started-at="2022-10-02T20:34:05 GST" name="tearDown" finished-at="2022-10-02T20:34:05 GST" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.practice.TestCases.ShortWaitTest -->
+        </test-method> <!-- newTabTest -->
+      </class> <!-- com.qa.practice.TestCases.NewTabTest -->
     </test> <!-- Selenium practice blog automation tests -->
   </suite> <!-- Selenium Automation Suite -->
 </testng-results>

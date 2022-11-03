@@ -10,8 +10,9 @@
 			<!-- <class name="com.qa.practice.TestCases.FormPageFillTest"></class>
 			<class name="com.qa.practice.TestCases.ShortWaitTest"></class> 
 			<class name="com.qa.practice.TestCases.LongWaitTest"></class>
+			<class name="com.qa.practice.TestCases.ShortWaitTest"></class>
 			<class name="com.qa.practice.TestCases.KeyboardDisabledTest"></class>-->
-			<class name="com.qa.practice.TestCases.ShortWaitTest"></class> 
+			<class name="com.qa.practice.TestCases.NewTabTest"></class>
 		</classes>
 	</test>
 </suite>

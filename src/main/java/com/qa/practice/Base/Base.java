@@ -10,6 +10,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Base {
 	public static Properties prop =null;
 	public static WebDriver driver = null;
@@ -33,7 +35,8 @@ public class Base {
 	{
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "/Users/antony/Desktop/Irin Study/Selenium/driver/chromedriver");
+			//System.setProperty("webdriver.chrome.driver", "/Users/antony/Desktop/Irin Study/Selenium/driver/chromedriver");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();

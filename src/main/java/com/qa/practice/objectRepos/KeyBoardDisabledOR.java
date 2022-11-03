@@ -20,7 +20,7 @@ public class KeyBoardDisabledOR extends Base{
 	public void enterText()
 	{
 		Actions action = new Actions(driver);
-		action.click(textArea).build().perform();
+		//action.click(textArea).build().perform();
 		
 		action.sendKeys(textArea, "testing").build().perform();
 		

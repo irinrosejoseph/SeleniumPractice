@@ -7,12 +7,12 @@
   </listeners>
   <test thread-count="5" name="Selenium practice blog automation tests(failed)">
     <classes>
-      <class name="com.qa.practice.TestCases.NewTabTest">
+      <class name="com.qa.practice.TestCases.UploadDownloadTest">
         <methods>
           <include name="setUp"/>
-          <include name="newTabTest"/>
+          <include name="uploadTest"/>
         </methods>
-      </class> <!-- com.qa.practice.TestCases.NewTabTest -->
+      </class> <!-- com.qa.practice.TestCases.UploadDownloadTest -->
     </classes>
   </test> <!-- Selenium practice blog automation tests(failed) -->
 </suite> <!-- Failed suite [Selenium Automation Suite] -->

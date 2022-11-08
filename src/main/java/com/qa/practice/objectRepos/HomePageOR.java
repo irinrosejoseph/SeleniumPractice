@@ -24,6 +24,9 @@ public class HomePageOR extends Base{
 	WebElement newTabLink;
 	
 	
+	@FindBy(linkText = "Upload and Download")
+	WebElement upDownLink;
+	
 	public HomePageOR()
 	{
 		PageFactory.initElements(driver, this);
@@ -54,6 +57,11 @@ public class HomePageOR extends Base{
 	{
 		newTabLink.click();
 		return new NewTabOR();
+	}
+	public UploadDownloadOR clickUpDownLink()
+	{
+		upDownLink.click();
+		return new UploadDownloadOR();
 	}
 
 }
